@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C71A99D02AA9D51500604F78 /* HZCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C71A99CE2AA9D51500604F78 /* HZCapture.m */; };
+		C77A1A402AA8225A00A6764A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C77A1A3F2AA8225A00A6764A /* AppDelegate.m */; };
+		C77A1A432AA8225A00A6764A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C77A1A422AA8225A00A6764A /* SceneDelegate.m */; };
+		C77A1A462AA8225A00A6764A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77A1A452AA8225A00A6764A /* ViewController.m */; };
+		C77A1A492AA8225A00A6764A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77A1A472AA8225A00A6764A /* Main.storyboard */; };
+		C77A1A4B2AA8225D00A6764A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77A1A4A2AA8225D00A6764A /* Assets.xcassets */; };
+		C77A1A4E2AA8225D00A6764A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77A1A4C2AA8225D00A6764A /* LaunchScreen.storyboard */; };
+		C77A1A512AA8225D00A6764A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C77A1A502AA8225D00A6764A /* main.m */; };
+		C77A1A592AA822AF00A6764A /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = C77A1A582AA822AF00A6764A /* CocoaAsyncSocket */; };
+		C79EF0732AB93BEC00A4B423 /* USBMux.m in Sources */ = {isa = PBXBuildFile; fileRef = C79EF0712AB93BEC00A4B423 /* USBMux.m */; };
+		C79EF07F2AB93CC900A4B423 /* HZVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C79EF0762AB93CC800A4B423 /* HZVideoEncoder.m */; };
+		C79EF0802AB93CC900A4B423 /* HZAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C79EF0792AB93CC800A4B423 /* HZAudioEncoder.m */; };
+		C79EF0812AB93CC900A4B423 /* HZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C79EF07B2AB93CC800A4B423 /* HZAudioPlayer.m */; };
+		C79EF0822AB93CC900A4B423 /* HZVideoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C79EF07C2AB93CC800A4B423 /* HZVideoDecoder.m */; };
+		C79EF0832AB93CC900A4B423 /* HZAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C79EF07D2AB93CC900A4B423 /* HZAudioDecoder.m */; };
+		C7B375E62ADD29C800BB509E /* HZTransferData.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B375E52ADD280700BB509E /* HZTransferData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C71A99CE2AA9D51500604F78 /* HZCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCapture.m; sourceTree = "<group>"; };
+		C71A99CF2AA9D51500604F78 /* HZCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCapture.h; sourceTree = "<group>"; };
+		C76C894D2AD104420064D409 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C77A1A3B2AA8225A00A6764A /* USBMux_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USBMux_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77A1A3E2AA8225A00A6764A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C77A1A3F2AA8225A00A6764A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C77A1A412AA8225A00A6764A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C77A1A422AA8225A00A6764A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C77A1A442AA8225A00A6764A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C77A1A452AA8225A00A6764A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C77A1A482AA8225A00A6764A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C77A1A4A2AA8225D00A6764A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C77A1A4D2AA8225D00A6764A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C77A1A4F2AA8225D00A6764A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77A1A502AA8225D00A6764A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C79EF0712AB93BEC00A4B423 /* USBMux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USBMux.m; sourceTree = "<group>"; };
+		C79EF0722AB93BEC00A4B423 /* USBMux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USBMux.h; sourceTree = "<group>"; };
+		C79EF0752AB93CC800A4B423 /* HZAudioEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZAudioEncoder.h; sourceTree = "<group>"; };
+		C79EF0762AB93CC800A4B423 /* HZVideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZVideoEncoder.m; sourceTree = "<group>"; };
+		C79EF0772AB93CC800A4B423 /* HZVideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZVideoEncoder.h; sourceTree = "<group>"; };
+		C79EF0782AB93CC800A4B423 /* HZAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZAudioDecoder.h; sourceTree = "<group>"; };
+		C79EF0792AB93CC800A4B423 /* HZAudioEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZAudioEncoder.m; sourceTree = "<group>"; };
+		C79EF07A2AB93CC800A4B423 /* HZVideoDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZVideoDecoder.h; sourceTree = "<group>"; };
+		C79EF07B2AB93CC800A4B423 /* HZAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZAudioPlayer.m; sourceTree = "<group>"; };
+		C79EF07C2AB93CC800A4B423 /* HZVideoDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZVideoDecoder.m; sourceTree = "<group>"; };
+		C79EF07D2AB93CC900A4B423 /* HZAudioDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZAudioDecoder.m; sourceTree = "<group>"; };
+		C79EF07E2AB93CC900A4B423 /* HZAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZAudioPlayer.h; sourceTree = "<group>"; };
+		C7B375E42ADD280700BB509E /* HZTransferData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTransferData.h; sourceTree = "<group>"; };
+		C7B375E52ADD280700BB509E /* HZTransferData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTransferData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C77A1A382AA8225A00A6764A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77A1A592AA822AF00A6764A /* CocoaAsyncSocket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76C894C2AD104410064D409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C76C894D2AD104420064D409 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C77A1A322AA8225A00A6764A = {
+			isa = PBXGroup;
+			children = (
+				C79EF06F2AB93BEB00A4B423 /* Global */,
+				C77A1A3D2AA8225A00A6764A /* USBMux_iOS */,
+				C77A1A3C2AA8225A00A6764A /* Products */,
+				C76C894C2AD104410064D409 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C77A1A3C2AA8225A00A6764A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C77A1A3B2AA8225A00A6764A /* USBMux_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77A1A3D2AA8225A00A6764A /* USBMux_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C77A1A3E2AA8225A00A6764A /* AppDelegate.h */,
+				C77A1A3F2AA8225A00A6764A /* AppDelegate.m */,
+				C77A1A412AA8225A00A6764A /* SceneDelegate.h */,
+				C77A1A422AA8225A00A6764A /* SceneDelegate.m */,
+				C77A1A442AA8225A00A6764A /* ViewController.h */,
+				C77A1A452AA8225A00A6764A /* ViewController.m */,
+				C77A1A472AA8225A00A6764A /* Main.storyboard */,
+				C77A1A4A2AA8225D00A6764A /* Assets.xcassets */,
+				C77A1A4C2AA8225D00A6764A /* LaunchScreen.storyboard */,
+				C77A1A4F2AA8225D00A6764A /* Info.plist */,
+				C77A1A502AA8225D00A6764A /* main.m */,
+			);
+			path = USBMux_iOS;
+			sourceTree = "<group>";
+		};
+		C79EF06F2AB93BEB00A4B423 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				C79EF0742AB93BF800A4B423 /* AV */,
+				C79EF0702AB93BEB00A4B423 /* USBMux */,
+			);
+			name = Global;
+			path = ../Global;
+			sourceTree = "<group>";
+		};
+		C79EF0702AB93BEB00A4B423 /* USBMux */ = {
+			isa = PBXGroup;
+			children = (
+				C79EF0722AB93BEC00A4B423 /* USBMux.h */,
+				C79EF0712AB93BEC00A4B423 /* USBMux.m */,
+				C7B375E42ADD280700BB509E /* HZTransferData.h */,
+				C7B375E52ADD280700BB509E /* HZTransferData.m */,
+			);
+			path = USBMux;
+			sourceTree = "<group>";
+		};
+		C79EF0742AB93BF800A4B423 /* AV */ = {
+			isa = PBXGroup;
+			children = (
+				C71A99CF2AA9D51500604F78 /* HZCapture.h */,
+				C71A99CE2AA9D51500604F78 /* HZCapture.m */,
+				C79EF0782AB93CC800A4B423 /* HZAudioDecoder.h */,
+				C79EF07D2AB93CC900A4B423 /* HZAudioDecoder.m */,
+				C79EF0752AB93CC800A4B423 /* HZAudioEncoder.h */,
+				C79EF0792AB93CC800A4B423 /* HZAudioEncoder.m */,
+				C79EF07E2AB93CC900A4B423 /* HZAudioPlayer.h */,
+				C79EF07B2AB93CC800A4B423 /* HZAudioPlayer.m */,
+				C79EF07A2AB93CC800A4B423 /* HZVideoDecoder.h */,
+				C79EF07C2AB93CC800A4B423 /* HZVideoDecoder.m */,
+				C79EF0772AB93CC800A4B423 /* HZVideoEncoder.h */,
+				C79EF0762AB93CC800A4B423 /* HZVideoEncoder.m */,
+			);
+			path = AV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C77A1A3A2AA8225A00A6764A /* USBMux_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77A1A542AA8225D00A6764A /* Build configuration list for PBXNativeTarget "USBMux_iOS" */;
+			buildPhases = (
+				C77A1A372AA8225A00A6764A /* Sources */,
+				C77A1A382AA8225A00A6764A /* Frameworks */,
+				C77A1A392AA8225A00A6764A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USBMux_iOS;
+			packageProductDependencies = (
+				C77A1A582AA822AF00A6764A /* CocoaAsyncSocket */,
+			);
+			productName = USBMux_iOS;
+			productReference = C77A1A3B2AA8225A00A6764A /* USBMux_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77A1A332AA8225A00A6764A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C77A1A3A2AA8225A00A6764A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C77A1A362AA8225A00A6764A /* Build configuration list for PBXProject "USBMux_iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C77A1A322AA8225A00A6764A;
+			packageReferences = (
+				C77A1A572AA822AF00A6764A /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
+			);
+			productRefGroup = C77A1A3C2AA8225A00A6764A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C77A1A3A2AA8225A00A6764A /* USBMux_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C77A1A392AA8225A00A6764A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77A1A4E2AA8225D00A6764A /* LaunchScreen.storyboard in Resources */,
+				C77A1A4B2AA8225D00A6764A /* Assets.xcassets in Resources */,
+				C77A1A492AA8225A00A6764A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77A1A372AA8225A00A6764A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B375E62ADD29C800BB509E /* HZTransferData.m in Sources */,
+				C77A1A462AA8225A00A6764A /* ViewController.m in Sources */,
+				C77A1A402AA8225A00A6764A /* AppDelegate.m in Sources */,
+				C79EF0822AB93CC900A4B423 /* HZVideoDecoder.m in Sources */,
+				C77A1A512AA8225D00A6764A /* main.m in Sources */,
+				C79EF0832AB93CC900A4B423 /* HZAudioDecoder.m in Sources */,
+				C79EF0812AB93CC900A4B423 /* HZAudioPlayer.m in Sources */,
+				C71A99D02AA9D51500604F78 /* HZCapture.m in Sources */,
+				C77A1A432AA8225A00A6764A /* SceneDelegate.m in Sources */,
+				C79EF07F2AB93CC900A4B423 /* HZVideoEncoder.m in Sources */,
+				C79EF0732AB93BEC00A4B423 /* USBMux.m in Sources */,
+				C79EF0802AB93CC900A4B423 /* HZAudioEncoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C77A1A472AA8225A00A6764A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77A1A482AA8225A00A6764A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C77A1A4C2AA8225D00A6764A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77A1A4D2AA8225D00A6764A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C77A1A522AA8225D00A6764A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C77A1A532AA8225D00A6764A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C77A1A552AA8225D00A6764A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEJ6MU4VC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = USBMux_iOS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = 2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HuangZhen.USBMux-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C77A1A562AA8225D00A6764A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEJ6MU4VC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = USBMux_iOS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = 2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HuangZhen.USBMux-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C77A1A362AA8225A00A6764A /* Build configuration list for PBXProject "USBMux_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77A1A522AA8225D00A6764A /* Debug */,
+				C77A1A532AA8225D00A6764A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77A1A542AA8225D00A6764A /* Build configuration list for PBXNativeTarget "USBMux_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77A1A552AA8225D00A6764A /* Debug */,
+				C77A1A562AA8225D00A6764A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C77A1A572AA822AF00A6764A /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/robbiehanson/CocoaAsyncSocket";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C77A1A582AA822AF00A6764A /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C77A1A572AA822AF00A6764A /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C77A1A332AA8225A00A6764A /* Project object */;
+}
