@@ -10,4 +10,5 @@
 
 # 感谢
 1 本项目使用了[CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket)传输数据
+
 2 本项目参考了[usbmuxd](https://github.com/libimobiledevice/usbmuxd)实现苹果的USBMux协议
