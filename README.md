@@ -12,3 +12,19 @@
 1 本项目使用了[CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket)传输数据
 
 2 本项目参考了[usbmuxd](https://github.com/libimobiledevice/usbmuxd)实现苹果的USBMux协议
+
+
+# Project implementation content
+* Communication between Mac and iOS
+* Audio and video collection
+* Audio and video encoding, decoding and playback (no audio and video synchronization)
+  
+# Mac to iOS communication
+To send data through a data cable between Mac and iOS, you only need to add the USBMux.h and USBMux.m files in this project to your own project, and then refer to this project to assemble your own data. You can also add the HZTransferData.h and HZTransferData.m files to your project, then add different HZTransferDataTypes to send data directly according to the method of this project.
+
+It is similar to GCDAsyncSocket when used. The iOS side serves as the socket server and the Mac side serves as the socket client.
+
+# Grateful
+1 This project uses [CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket) to transmit data
+
+2 This project refers to [usbmuxd](https://github.com/libimobiledevice/usbmuxd) to implement Apple’s USBMux protocol
